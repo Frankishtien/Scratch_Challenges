@@ -494,9 +494,6 @@ button.submit-button {
 
 /* Responsive styles */
 @media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
     .challenge {
         margin: 10px 0;
         padding: 15px;
@@ -544,9 +541,6 @@ button.submit-button {
 
 /* Responsive styles for small devices */
 @media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
     .challenge {
         margin: 10px 0;
         padding: 15px;
@@ -1073,6 +1067,32 @@ button.submit-button {
 
     .achievements-list li {
       justify-content: flex-start;
+    }
+  }
+
+
+
+
+
+
+
+  /* /////// */
+
+
+  @media screen and (max-width: 480px) {
+    .achievements-list li {
+      flex-wrap: wrap; /* Allow wrapping within the list item */
+      justify-content: flex-start; /* Keep items aligned left */
+      padding: 10px;
+    }
+  
+    .achievements-list i {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+  
+    .achievements-list li {
+      font-size: .8rem;
     }
   }
 
