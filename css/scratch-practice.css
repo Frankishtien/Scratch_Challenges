@@ -483,8 +483,8 @@ button.submit-button {
 }
 
 .blue-badge {
-    background-color: #2670e65f;
-    color: rgb(137, 120, 252);
+    background-color: rgba(46, 231, 182, 0.18);
+    color: rgb(46, 231, 182);
 }
 
 .yellow-badge {
