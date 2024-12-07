@@ -170,7 +170,7 @@ document.addEventListener('click', function(event) {
 
 function toggleChallenge(id) {
     const content = document.getElementById(id);
-    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    content.style.display = content.style.display === 'grid' ? 'none' : 'grid';
 }
 
 // Function to show toast
